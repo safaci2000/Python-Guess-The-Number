@@ -30,12 +30,6 @@ def choose_a_number(msg):
         except:
             print("Invalid selection.  Please enter a numeric value")
 
-def is_num_less(user, value):
-    """
-    this function checks to see if the second number is lower then the first number
-    """
-    while user <= value:
-        return choose_a_number("Choose a higher number: ")
 
 
 def play_again():
